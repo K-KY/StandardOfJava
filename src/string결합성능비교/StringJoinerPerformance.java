@@ -7,7 +7,7 @@ public class StringJoinerPerformance {
         StringJoiner stringJoiner = new StringJoiner("");
         long beforeTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 5000000; i++) {
+        for (int i = 0; i < 50000000; i++) {
             stringJoiner.add("a");
             System.out.println(i);
         }

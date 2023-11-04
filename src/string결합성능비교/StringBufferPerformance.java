@@ -5,7 +5,7 @@ public class StringBufferPerformance {
         StringBuffer stringBuffer = new StringBuffer();
         long beforeTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 5000000; i++) {
+        for (int i = 0; i < 50000000; i++) {
             stringBuffer.append("a");
             System.out.println(i);
         }
